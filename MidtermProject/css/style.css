@@ -1,0 +1,214 @@
+/* Body Tag */
+
+body {
+    background-color: rgb(73, 55, 55);
+}
+
+img{
+    width: 80px;
+    padding: 1px 2px;
+
+}
+
+
+/* Nav da Kullanılanlar */
+
+nav {
+    background-color: yellowgreen;
+    height: 40px;
+    margin: 0px 0px 10px 0px;
+}
+
+
+/* Headerda kullanılanlar */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px; 
+    background-color: lightblue;  
+}
+
+.header-boxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: whitesmoke;
+    padding: 5px;
+    margin: 30px;
+    font-size: 25px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+.header-boxes-two{
+    background-color: red;
+    padding: 5px;
+    margin: 30px;
+    font-size: 25px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+.margin-auto-left{
+    margin-left:auto;
+}
+
+
+/* Sectionda Kullanılanlar */
+
+section{
+    display: flex;
+    height:1800px;
+    background-color: palegoldenrod;
+}
+
+.left-side-bar{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background-color: y#434343;
+    flex: 20%;
+    padding: 20px;
+
+}
+
+.content{
+    background-color: rgb(80, 194, 80);
+    flex:50%;
+    padding: 20px;
+}
+
+.content h1,h2,h3 {
+    color: red;
+    
+}
+
+.content p {
+    color: black;
+}
+.content li {
+
+    color: white;
+    text-align: center;
+    list-style-position: inside;
+    font-size: 20px;
+}
+
+.right-side-bar{
+    display:flex;
+    justify-content:flex-start ;
+    flex-direction: column;
+    align-items: center;
+    background-color: y#434343;
+    flex: 30%;
+    padding: 20px;
+}
+
+.items{
+    background-color: whitesmoke;
+    padding: 20px;
+    margin: 30px;
+    color: red;
+    font-size: 25px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+.items-box{
+    background-color: whitesmoke;
+    padding: 20px;
+    margin: 30px;
+    color: red;
+    font-size: 25px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+
+/* Footerda Kullanılanlar */
+
+footer{
+    display:flex;
+    justify-content:flex-end;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    height:250px;
+    background-color: rgb(75, 73, 73);
+}
+
+.copy-right {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* Hem Section Hem Footerda Kullanıldı
+
+.items{
+    background-color: whitesmoke;
+    padding: 20px;
+    margin: 30px;
+    color: red;
+    font-size: 25px;
+    border-radius: 15px;
+    border: 1px solid black;
+} 
+*/
+
+
+
+/* Başlıklarda Kullanılanlar */
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 1px;
+    color: rgb(138, 128, 128);
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+
+/* Paragraflarda Kullanılanlar */
+
+p{
+    text-align: center;
+    font-style: oblique;
+    color:rgb(6, 109, 109);
+}
+
+p:first-child{
+    color: red;
+}
+
+
+/* Anchor Tagından Kullanılanlar */
+
+a{
+    display:block;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    height:100%;
+    width: 100px;
+
+}
+
